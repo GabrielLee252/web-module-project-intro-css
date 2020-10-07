@@ -1,10 +1,12 @@
-
+body{ 
+    font-family: 'Roboto Mono', monospace;
+}
 .header{
     border-radius: 50%;
     height: 10%;
     width: 10%;
 }
-.navbuttons a{
+#visit{
     margin: 0 5%;
     border: 1px solid lightgrey;
     padding: 2%;
@@ -14,4 +16,42 @@
     text-decoration: none;
     margin-bottom: 20px;
     background-color: #FF764E;
+}
+#learn{
+    margin: 0 5%;
+    border: 1px solid lightgrey;
+    padding: 2%;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-color: #5ED3EB;
+}
+#involved{
+    margin: 0 5%;
+    border: 1px solid lightgrey;
+    padding: 2%;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-color: #FFCD69;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+.text-container {
+    background-color: #DDB9A3;
+}
+
+footer {
+    background-color: #F9E7DC;
 }
